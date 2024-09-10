@@ -17,8 +17,7 @@ public class BankManagement {
     static Connection con = ConnectionDemo.getConnection();
     static String sql = "";
     public static boolean
-    createAccount(String name,
-                  int passCode) // create account function
+    createAccount(String name,int passCode) 
     {
         try {
             // validation
@@ -77,7 +76,7 @@ public class BankManagement {
                 while (true) {
                     try {
                         System.out.println(
-                            "Hallo, "
+                            "Hello, "
                             + rs.getString("cname"));
                         System.out.println(
                             "1)Transfer Money");
