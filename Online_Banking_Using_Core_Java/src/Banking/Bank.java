@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Bank {
-	 public static void main(String args[]) //main class of bank
+	 public static void main(String args[]) 
 		        throws IOException
 		    {
 		 
@@ -24,7 +24,7 @@ public class Bank {
 		            System.out.println("2)Login Account");
 		 
 		            try {
-		                System.out.print("\n    Enter Input:"); //user input 
+		                System.out.print("\n    Enter Input:");
 		                ch = Integer.parseInt(sc.readLine());
 		 
 		                switch (ch) {
