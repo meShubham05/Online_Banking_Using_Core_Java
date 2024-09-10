@@ -19,7 +19,7 @@ public class Bank {
 		 
 		        while (true) {
 		            System.out.println(
-		                "\n ->||    Welcome to InBank    ||<- \n");
+		                "\n ->||    Welcome to APNA Bank    ||<- \n");
 		            System.out.println("1)Create Account");
 		            System.out.println("2)Login Account");
 		 
